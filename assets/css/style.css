@@ -200,3 +200,7 @@ hr {
 	min-width: 575px;
 	min-height: 180px;
 }
+
+.nameEmail {
+	width: 575px;
+}
