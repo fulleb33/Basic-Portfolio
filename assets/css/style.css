@@ -12,12 +12,12 @@ body {
 	height: 100px;
     position: relative;
 	bottom: 22px;
-
+    width: 100%;
 }
 
 #yourName {
 	background-color: #4aaaa5;
-	width: 8em;
+	width: 10em;
 	height: 100%;
 	text-align: center;
 	margin-left: 5%;
@@ -93,6 +93,12 @@ body {
 
 hr {
 	width: 90%;
+	display: block;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
 }
 
 #bioSection {
@@ -114,7 +120,7 @@ hr {
 	font-size: 2em;
 	font-weight: bold;
 	padding-top: 0.67em;
-	padding-bottom: 0.5em;
+
 }
 
 #myPic {
@@ -153,10 +159,9 @@ hr {
 	font-size: 2em;
 	font-weight: bold;
 	padding-top: 0.67em;
-	padding-bottom: 0.5em;
 }
 
-.container {
+.containers {
 	position: relative;
 	width: 240px;
 	height: 180px;
@@ -201,7 +206,7 @@ hr {
 	font-size: 2em;
 	font-weight: bold;
 	padding-top: 0.67em;
-	padding-bottom: 0.5em;
+
 }
 
 #forms {
