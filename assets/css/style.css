@@ -9,6 +9,8 @@ body {
 #topBanner {
 	background-color: #ffffff;
 	border-bottom: 2px solid #dddddd;
+	border-right: 2px solid #dddddd;
+	border-left: 2px solid #dddddd;
 	clear: both;
 	margin: 0;
 	height: 100px;
