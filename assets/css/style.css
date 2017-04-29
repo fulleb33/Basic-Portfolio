@@ -63,6 +63,12 @@ body {
 	color: #777777;
 }
 
+.topButtons:focus {
+	/*BS override*/
+	text-decoration: none;
+	color: #777777;
+}
+
 #connectSection {
 	float: left;
 	background-color: #ffffff;
