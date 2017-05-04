@@ -13,9 +13,9 @@ body {
 	border-left: 2px solid #dddddd;
 	clear: both;
 	margin: 0;
-	height: 100px;
+	height: 6.25em;
     position: relative;
-	bottom: 22px;
+	bottom: 1.38em;
 
 }
 
@@ -29,19 +29,19 @@ body {
 	color: #ffffff;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 2em;
-    line-height: 120px;
+    line-height: 3.5em;
     font-weight: bold;
 }
 
 .topButtons {
     
     display: inline-block;
-    height: 40px;
-    line-height: 40px;
+    height: 2.5em;
+    line-height: 2.5em;
     position: relative;
     float: right;
-    bottom: 55px;
-    padding: 0 10px;
+    bottom: 3.44em;
+    padding: 0 0.63em;
     margin-right: 5%;
     color: #777777;
     text-decoration: none;
@@ -53,8 +53,8 @@ body {
 }
 
 .topButtons:active {
-    height:35px;
-    line-height:35px;
+    height: 2.19em;
+    line-height: 2.19em;
 }
 
 .topButtons:hover {
@@ -260,3 +260,71 @@ hr {
 .nameEmail {
 	width: 575px;
 }
+
+@media screen and (max-width: 980px) {
+    #topBanner {
+    	width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+	#topBanner {
+		min-width: 768px;
+	}
+	#connectSection {
+		width: 650px;
+	}
+	#connectWithMe {
+		padding:0;
+		margin: 1em 0;
+		text-align: left;
+		margin-left: 5%;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+	#topBanner {
+		min-width: 640px;
+		text-align: center;
+		height: 12em;
+	}
+	#portfolioPane {
+		width: 550px;
+	}
+	#bioSection {
+		width: 550px;
+	}
+	#messageSpace {
+		width: 450px;
+		max-width: 450px
+		min-width: 450px;
+	}
+	.nameEmail {
+		width: 500px;
+	}
+	#yourName {
+        height: 60%;
+        width: 550px;
+	}
+	.topButtons {
+        float: left;
+        left: 155px;
+        top: 25px;
+
+	}
+    #contactPane {
+    	width: 550px;
+    }
+	#connectWithMe {
+		padding:0;
+		margin: 1em 0;
+		text-align: left;
+		margin-left: 5%;
+		width: 500px;
+	}	
+	#connectSection {
+		width: 550px;
+	}
+}
+
